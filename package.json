@@ -1,0 +1,24 @@
+{
+  "name": "redis-await",
+  "version": "1.0.0",
+  "description": "light weight and high performance async nodejs redis client! support await",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeoasoft/redis-await.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "redis"
+  ],
+  "author": "yaozhengyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeoasoft/redis-await/issues"
+  },
+  "homepage": "https://github.com/freeoasoft/redis-await#readme"
+}
