@@ -5,7 +5,7 @@ let RedisClient = require('./lib');
     let client = new RedisClient(/*{ host: '127.0.0.1', port: 6379, pool: 2 }*/);
     
     await client.ready();
-    
+
     let date = new Date();
 
     for (var i = 0; i < 1000; i++)
@@ -27,7 +27,7 @@ let RedisClient = require('./lib');
         value = await client.hset('test', 'e', '123\r\n456');
         value = await client.hget('test', 'e');
 
-        value = await client.hmset('test', { f: 1, g: 2 });
+        value = await client.hmset('test', { f: 1, g: 2, h: '' });
         value = await client.hmget('test', 'f', 'g');
 
         value = await client.hgetall('test');
