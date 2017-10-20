@@ -1,10 +1,10 @@
-let RedisClient = require('./lib');
+let RedisClient = require('../lib');
 
 (async function () {
 
-    let client = new RedisClient(/*{ host: '127.0.0.1', port: 6379, pool: 2 }*/);
+    let client = new RedisClient(/*{ host: '127.0.0.1', port: 6379 }*/);
     
-    await client.ready();
+    await client.connect();
 
     let date = new Date();
 
