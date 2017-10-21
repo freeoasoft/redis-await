@@ -1,6 +1,8 @@
 # redis-await
 light weight and high performance async nodejs redis client! support await
 
+![](https://www.travis-ci.org/freeoasoft/redis-await.svg?branch=master)
+
 ## Installation
 `npm install redis-await`
 

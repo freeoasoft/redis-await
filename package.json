@@ -1,10 +1,10 @@
 {
   "name": "redis-await",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "light weight and high performance async nodejs redis client! support await",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/freeoasoft/redis-await/issues"
   },
-  "homepage": "https://github.com/freeoasoft/redis-await#readme"
+  "homepage": "https://github.com/freeoasoft/redis-await#readme",
+  "devDependencies": {
+  }
 }
