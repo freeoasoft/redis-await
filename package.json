@@ -4,7 +4,7 @@
   "description": "light weight and high performance async nodejs redis client! support await",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
