@@ -7,7 +7,7 @@ light weight and high performance async nodejs redis client! support await
 `npm install redis-await`
 
 ## Usage
-```
+```javascript
 const RedisClient = require('redis-await');
 
 (async function () {
